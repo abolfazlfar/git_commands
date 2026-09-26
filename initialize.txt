@@ -34,3 +34,6 @@
     git log --oneline
 
 ## Merge branch
+    git switch master
+    git merge feature/delete-task
+    git log --oneline --graph --all 
