@@ -1,24 +1,36 @@
-git init
-git add  README.md
-git commit -m "First commit"
-git branch -M main
-git remote add origin https://path.git
-git push -u origin main
+## Create New Project
+    git init
+    git add  README.md
+    git commit -m "First commit"
+    git branch -M main
+    git remote add origin https://path.git
+    git push -u origin main
 
 
 
-git status
-git add .
-git commit -m "First commit"
 
-git config --global user.name "Your Name"
-git config --global user.email you@example.com
-git commit --amend --reset-author --no-edit
+## Start Project
+    git init
+    git status
+    git add .
+    git commit -m "First commit"
 
-git diff
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+    git commit --amend --reset-author --no-edit
 
-git log --oneline
+    git diff  (q --> for end)
+    git log --oneline
 
 
-git switch -c feature/new-command
-git branch
+
+## Create a New Brach
+    git switch -c feature/new-command
+    git branch
+    git status
+    git add .
+    git commit -m " "
+    git status
+    git log --oneline
+
+## Merge branch
