@@ -45,7 +45,15 @@
     git push origin [branch_name]
     git pull
 
+## Remove unstage changes
+    git restore <file>
 
-git restore <file>
-git revert <commit>
-git stash
+## Commit New Changes that remove the mentioned commit
+    git log --oneline
+    git revert <commit> (--> to close the file :wq)
+
+
+## Save unstage changes and use it again
+    git stash
+    git switch main
+    git stash pop
