@@ -17,4 +17,8 @@ git commit --amend --reset-author --no-edit
 
 git diff
 
+git log --oneline
 
+
+git switch -c feature/new-command
+git branch
