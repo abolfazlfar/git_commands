@@ -26,7 +26,7 @@
 
 ## Create a New Brach
     git switch -c feature/new-command
-    git branch
+    git branch --show-current OR git branch
     git status
     git add .
     git commit -m " "
@@ -38,3 +38,14 @@
     git merge feature/delete-task
     git log --oneline --graph --all 
 
+
+## Push on server
+    git remote add origin <REPOSITORY_URL>
+    git remote -v
+    git push origin [branch_name]
+    git pull
+
+
+git restore <file>
+git revert <commit>
+git stash
