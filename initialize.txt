@@ -46,9 +46,6 @@
     git pull
 
 
-## Remove on Stage changes
-    git restore <file>
-
-    
+git restore <file>
 git revert <commit>
 git stash
