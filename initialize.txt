@@ -10,8 +10,13 @@
 
 
 ## Start Project
-    git init
     git clone https://github.com/user/project.git (This command is for first time)
+
+
+    git init
+    git remote add origin https://path.git
+    git branch -r (--remote or -a --> --all)
+    git checkout -b master origin/master
     git status
     git add .
     git commit -m "First commit"
