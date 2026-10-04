@@ -11,9 +11,11 @@
 
 ## Start Project
     git init
+    git clone https://github.com/user/project.git (This command is for first time)
     git status
     git add .
     git commit -m "First commit"
+    git fetch origin (For any times that we want to get the last changes on the project)
 
     git config --global user.name "Your Name"
     git config --global user.email you@example.com
