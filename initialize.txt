@@ -2,9 +2,9 @@
     git init
     git add  README.md
     git commit -m "First commit"
-    git branch -M main
+    git branch -M main  (-M --> --move --force)
     git remote add origin https://path.git
-    git push -u origin main
+    git push -u origin main  (-u --> --upstream)
 
 
 
@@ -44,7 +44,7 @@
 ## Push on server
     git remote add origin <REPOSITORY_URL>
     git remote -v
-    git push origin [branch_name]
+    git push -u origin [branch_name] (-u --> --upstream)
     git pull
 
 ## Remove unstage changes
@@ -65,3 +65,4 @@
     git show head~1...N
     git revert head
     git revert head~1...N
+  
